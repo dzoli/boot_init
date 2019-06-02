@@ -22,6 +22,7 @@ public class User implements Serializable {
 
 	private String address;
 
+	@Column(name = "birthDate")
 	@Temporal(TemporalType.DATE)
 	private Date birthDate;
 
